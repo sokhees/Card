@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A40AAB8A1D87B28C00BE74C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AAB891D87B28C00BE74C2 /* main.m */; };
+		A40AAB8D1D87B28C00BE74C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AAB8C1D87B28C00BE74C2 /* AppDelegate.m */; };
+		A40AAB901D87B28C00BE74C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AAB8F1D87B28C00BE74C2 /* ViewController.m */; };
+		A40AAB931D87B28C00BE74C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40AAB911D87B28C00BE74C2 /* Main.storyboard */; };
+		A40AAB951D87B28C00BE74C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40AAB941D87B28C00BE74C2 /* Assets.xcassets */; };
+		A40AAB981D87B28C00BE74C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40AAB961D87B28C00BE74C2 /* LaunchScreen.storyboard */; };
+		A40AABA61D87E02900BE74C2 /* backcard.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABA51D87E02900BE74C2 /* backcard.png */; };
+		A40AABA91D87E3C500BE74C2 /* phuc.db in Resources */ = {isa = PBXBuildFile; fileRef = A40AABA81D87E3C500BE74C2 /* phuc.db */; };
+		A40AABAC1D87E42200BE74C2 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AABAB1D87E42200BE74C2 /* DBHelper.m */; };
+		A40AABB81D87E4CD00BE74C2 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AABAF1D87E4CD00BE74C2 /* FMDatabase.m */; };
+		A40AABB91D87E4CD00BE74C2 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AABB11D87E4CD00BE74C2 /* FMDatabaseAdditions.m */; };
+		A40AABBA1D87E4CD00BE74C2 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AABB31D87E4CD00BE74C2 /* FMDatabasePool.m */; };
+		A40AABBB1D87E4CD00BE74C2 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AABB51D87E4CD00BE74C2 /* FMDatabaseQueue.m */; };
+		A40AABBC1D87E4CD00BE74C2 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AABB71D87E4CD00BE74C2 /* FMResultSet.m */; };
+		A40AABBE1D87E68A00BE74C2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A40AABBD1D87E68A00BE74C2 /* libsqlite3.tbd */; };
+		A40AABC11D87E9DD00BE74C2 /* TarotDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AABC01D87E9DD00BE74C2 /* TarotDetails.m */; };
+		A40AABD71D87F22300BE74C2 /* Death.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABC21D87F22300BE74C2 /* Death.png */; };
+		A40AABD81D87F22300BE74C2 /* Judgment.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABC31D87F22300BE74C2 /* Judgment.png */; };
+		A40AABD91D87F22300BE74C2 /* Justice.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABC41D87F22300BE74C2 /* Justice.png */; };
+		A40AABDA1D87F22300BE74C2 /* Temperance.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABC51D87F22300BE74C2 /* Temperance.png */; };
+		A40AABDB1D87F22300BE74C2 /* The Chariot.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABC61D87F22300BE74C2 /* The Chariot.png */; };
+		A40AABDC1D87F22300BE74C2 /* The Devil.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABC71D87F22300BE74C2 /* The Devil.png */; };
+		A40AABDD1D87F22300BE74C2 /* The Emperor.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABC81D87F22300BE74C2 /* The Emperor.png */; };
+		A40AABDE1D87F22300BE74C2 /* The Empress.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABC91D87F22300BE74C2 /* The Empress.png */; };
+		A40AABDF1D87F22300BE74C2 /* The Fool.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABCA1D87F22300BE74C2 /* The Fool.png */; };
+		A40AABE01D87F22300BE74C2 /* The Hanged Man.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABCB1D87F22300BE74C2 /* The Hanged Man.png */; };
+		A40AABE11D87F22300BE74C2 /* The Hermit.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABCC1D87F22300BE74C2 /* The Hermit.png */; };
+		A40AABE21D87F22300BE74C2 /* The Hierophant.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABCD1D87F22300BE74C2 /* The Hierophant.png */; };
+		A40AABE31D87F22300BE74C2 /* The High Priestess.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABCE1D87F22300BE74C2 /* The High Priestess.png */; };
+		A40AABE41D87F22300BE74C2 /* The Lovers.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABCF1D87F22300BE74C2 /* The Lovers.png */; };
+		A40AABE51D87F22300BE74C2 /* The Magician.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABD01D87F22300BE74C2 /* The Magician.png */; };
+		A40AABE61D87F22300BE74C2 /* The Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABD11D87F22300BE74C2 /* The Moon.png */; };
+		A40AABE71D87F22300BE74C2 /* The Star.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABD21D87F22300BE74C2 /* The Star.png */; };
+		A40AABE81D87F22300BE74C2 /* The Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABD31D87F22300BE74C2 /* The Sun.png */; };
+		A40AABE91D87F22300BE74C2 /* The Tower.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABD41D87F22300BE74C2 /* The Tower.png */; };
+		A40AABEA1D87F22300BE74C2 /* The Wheel Of Fortune.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABD51D87F22300BE74C2 /* The Wheel Of Fortune.png */; };
+		A40AABEB1D87F22300BE74C2 /* The World.png in Resources */ = {isa = PBXBuildFile; fileRef = A40AABD61D87F22300BE74C2 /* The World.png */; };
+		A40AABEE1D8807E000BE74C2 /* PickCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AABED1D8807E000BE74C2 /* PickCardViewController.m */; };
+		A40AABF11D880D9700BE74C2 /* CardDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AABF01D880D9700BE74C2 /* CardDisplay.m */; };
+		A44BD4271D90D17000553949 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44BD4261D90D17000553949 /* GoogleMobileAds.framework */; };
+		A44BD42D1D90D19A00553949 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44BD4281D90D19A00553949 /* FirebaseAnalytics.framework */; };
+		A44BD42E1D90D19A00553949 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44BD4291D90D19A00553949 /* FirebaseInstanceID.framework */; };
+		A44BD42F1D90D19A00553949 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44BD42A1D90D19A00553949 /* GoogleInterchangeUtilities.framework */; };
+		A44BD4301D90D19A00553949 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44BD42B1D90D19A00553949 /* GoogleSymbolUtilities.framework */; };
+		A44BD4311D90D19A00553949 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44BD42C1D90D19A00553949 /* GoogleUtilities.framework */; };
+		A44BD4331D90DE3C00553949 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A44BD4321D90DE3C00553949 /* GoogleService-Info.plist */; };
+		A463DDA11D8AA08F004193CA /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A463DDA01D8AA08F004193CA /* backbutton.png */; };
+		A48095351D8A7B1800786F47 /* mainbg.png in Resources */ = {isa = PBXBuildFile; fileRef = A48095341D8A7B1800786F47 /* mainbg.png */; };
+		A48095371D8A7C4100786F47 /* selectbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A48095361D8A7C4100786F47 /* selectbutton.png */; };
+		A480953A1D8A8C7C00786F47 /* DetailCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48095391D8A8C7C00786F47 /* DetailCardViewController.m */; };
+		A485141B1D8F9FCF00A562F3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48514171D8F9FCF00A562F3 /* Bolts.framework */; };
+		A485141C1D8F9FCF00A562F3 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48514181D8F9FCF00A562F3 /* FBSDKCoreKit.framework */; };
+		A485141D1D8F9FCF00A562F3 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48514191D8F9FCF00A562F3 /* FBSDKLoginKit.framework */; };
+		A485141E1D8F9FCF00A562F3 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A485141A1D8F9FCF00A562F3 /* FBSDKShareKit.framework */; };
+		A48514221D8FAD3C00A562F3 /* Next.png in Resources */ = {isa = PBXBuildFile; fileRef = A485141F1D8FAD3C00A562F3 /* Next.png */; };
+		A48514231D8FAD3C00A562F3 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = A48514201D8FAD3C00A562F3 /* star.png */; };
+		A48514241D8FAD3C00A562F3 /* Strength.png in Resources */ = {isa = PBXBuildFile; fileRef = A48514211D8FAD3C00A562F3 /* Strength.png */; };
+		A4FADEAF1D88F2EE001D3257 /* DataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FADEAE1D88F2EE001D3257 /* DataAccess.m */; };
+		A4FADEB51D890356001D3257 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FADEB41D890356001D3257 /* back.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A40AAB851D87B28C00BE74C2 /* DailyTarrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyTarrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40AAB891D87B28C00BE74C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A40AAB8B1D87B28C00BE74C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A40AAB8C1D87B28C00BE74C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A40AAB8E1D87B28C00BE74C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = DailyTarrot/ViewController.h; sourceTree = SOURCE_ROOT; };
+		A40AAB8F1D87B28C00BE74C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = DailyTarrot/ViewController.m; sourceTree = SOURCE_ROOT; };
+		A40AAB921D87B28C00BE74C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A40AAB941D87B28C00BE74C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A40AAB971D87B28C00BE74C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A40AAB991D87B28C00BE74C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40AABA51D87E02900BE74C2 /* backcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backcard.png; sourceTree = "<group>"; };
+		A40AABA81D87E3C500BE74C2 /* phuc.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = phuc.db; sourceTree = "<group>"; };
+		A40AABAA1D87E42200BE74C2 /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
+		A40AABAB1D87E42200BE74C2 /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
+		A40AABAE1D87E4CD00BE74C2 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A40AABAF1D87E4CD00BE74C2 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A40AABB01D87E4CD00BE74C2 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A40AABB11D87E4CD00BE74C2 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A40AABB21D87E4CD00BE74C2 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A40AABB31D87E4CD00BE74C2 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A40AABB41D87E4CD00BE74C2 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A40AABB51D87E4CD00BE74C2 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A40AABB61D87E4CD00BE74C2 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A40AABB71D87E4CD00BE74C2 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A40AABBD1D87E68A00BE74C2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A40AABBF1D87E9DD00BE74C2 /* TarotDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarotDetails.h; sourceTree = "<group>"; };
+		A40AABC01D87E9DD00BE74C2 /* TarotDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarotDetails.m; sourceTree = "<group>"; };
+		A40AABC21D87F22300BE74C2 /* Death.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Death.png; sourceTree = "<group>"; };
+		A40AABC31D87F22300BE74C2 /* Judgment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Judgment.png; sourceTree = "<group>"; };
+		A40AABC41D87F22300BE74C2 /* Justice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Justice.png; sourceTree = "<group>"; };
+		A40AABC51D87F22300BE74C2 /* Temperance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Temperance.png; sourceTree = "<group>"; };
+		A40AABC61D87F22300BE74C2 /* The Chariot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Chariot.png"; sourceTree = "<group>"; };
+		A40AABC71D87F22300BE74C2 /* The Devil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Devil.png"; sourceTree = "<group>"; };
+		A40AABC81D87F22300BE74C2 /* The Emperor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Emperor.png"; sourceTree = "<group>"; };
+		A40AABC91D87F22300BE74C2 /* The Empress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Empress.png"; sourceTree = "<group>"; };
+		A40AABCA1D87F22300BE74C2 /* The Fool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Fool.png"; sourceTree = "<group>"; };
+		A40AABCB1D87F22300BE74C2 /* The Hanged Man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Hanged Man.png"; sourceTree = "<group>"; };
+		A40AABCC1D87F22300BE74C2 /* The Hermit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Hermit.png"; sourceTree = "<group>"; };
+		A40AABCD1D87F22300BE74C2 /* The Hierophant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Hierophant.png"; sourceTree = "<group>"; };
+		A40AABCE1D87F22300BE74C2 /* The High Priestess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The High Priestess.png"; sourceTree = "<group>"; };
+		A40AABCF1D87F22300BE74C2 /* The Lovers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Lovers.png"; sourceTree = "<group>"; };
+		A40AABD01D87F22300BE74C2 /* The Magician.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Magician.png"; sourceTree = "<group>"; };
+		A40AABD11D87F22300BE74C2 /* The Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Moon.png"; sourceTree = "<group>"; };
+		A40AABD21D87F22300BE74C2 /* The Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Star.png"; sourceTree = "<group>"; };
+		A40AABD31D87F22300BE74C2 /* The Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Sun.png"; sourceTree = "<group>"; };
+		A40AABD41D87F22300BE74C2 /* The Tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Tower.png"; sourceTree = "<group>"; };
+		A40AABD51D87F22300BE74C2 /* The Wheel Of Fortune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Wheel Of Fortune.png"; sourceTree = "<group>"; };
+		A40AABD61D87F22300BE74C2 /* The World.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The World.png"; sourceTree = "<group>"; };
+		A40AABEC1D8807E000BE74C2 /* PickCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickCardViewController.h; sourceTree = "<group>"; };
+		A40AABED1D8807E000BE74C2 /* PickCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickCardViewController.m; sourceTree = "<group>"; };
+		A40AABEF1D880D9700BE74C2 /* CardDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDisplay.h; sourceTree = "<group>"; };
+		A40AABF01D880D9700BE74C2 /* CardDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDisplay.m; sourceTree = "<group>"; };
+		A44BD4261D90D17000553949 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		A44BD4281D90D19A00553949 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		A44BD4291D90D19A00553949 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		A44BD42A1D90D19A00553949 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		A44BD42B1D90D19A00553949 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		A44BD42C1D90D19A00553949 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		A44BD4321D90DE3C00553949 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A463DDA01D8AA08F004193CA /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
+		A48095341D8A7B1800786F47 /* mainbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainbg.png; sourceTree = "<group>"; };
+		A48095361D8A7C4100786F47 /* selectbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectbutton.png; sourceTree = "<group>"; };
+		A48095381D8A8C7C00786F47 /* DetailCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCardViewController.h; sourceTree = "<group>"; };
+		A48095391D8A8C7C00786F47 /* DetailCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCardViewController.m; sourceTree = "<group>"; };
+		A48514171D8F9FCF00A562F3 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A48514181D8F9FCF00A562F3 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A48514191D8F9FCF00A562F3 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A485141A1D8F9FCF00A562F3 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		A485141F1D8FAD3C00A562F3 /* Next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Next.png; sourceTree = "<group>"; };
+		A48514201D8FAD3C00A562F3 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		A48514211D8FAD3C00A562F3 /* Strength.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strength.png; sourceTree = "<group>"; };
+		A4FADEAD1D88F2EE001D3257 /* DataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccess.h; sourceTree = "<group>"; };
+		A4FADEAE1D88F2EE001D3257 /* DataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccess.m; sourceTree = "<group>"; };
+		A4FADEB31D88F570001D3257 /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		A4FADEB41D890356001D3257 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40AAB821D87B28C00BE74C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44BD42F1D90D19A00553949 /* GoogleInterchangeUtilities.framework in Frameworks */,
+				A44BD4271D90D17000553949 /* GoogleMobileAds.framework in Frameworks */,
+				A44BD4301D90D19A00553949 /* GoogleSymbolUtilities.framework in Frameworks */,
+				A40AABBE1D87E68A00BE74C2 /* libsqlite3.tbd in Frameworks */,
+				A485141C1D8F9FCF00A562F3 /* FBSDKCoreKit.framework in Frameworks */,
+				A44BD42E1D90D19A00553949 /* FirebaseInstanceID.framework in Frameworks */,
+				A485141E1D8F9FCF00A562F3 /* FBSDKShareKit.framework in Frameworks */,
+				A44BD42D1D90D19A00553949 /* FirebaseAnalytics.framework in Frameworks */,
+				A485141D1D8F9FCF00A562F3 /* FBSDKLoginKit.framework in Frameworks */,
+				A485141B1D8F9FCF00A562F3 /* Bolts.framework in Frameworks */,
+				A44BD4311D90D19A00553949 /* GoogleUtilities.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40AAB7C1D87B28C00BE74C2 = {
+			isa = PBXGroup;
+			children = (
+				A44BD4321D90DE3C00553949 /* GoogleService-Info.plist */,
+				A40AAB871D87B28C00BE74C2 /* DailyTarrot */,
+				A40AAB861D87B28C00BE74C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40AAB861D87B28C00BE74C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A40AAB851D87B28C00BE74C2 /* DailyTarrot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40AAB871D87B28C00BE74C2 /* DailyTarrot */ = {
+			isa = PBXGroup;
+			children = (
+				A40AAB8B1D87B28C00BE74C2 /* AppDelegate.h */,
+				A40AAB8C1D87B28C00BE74C2 /* AppDelegate.m */,
+				A40AABA21D87DDD400BE74C2 /* ViewController */,
+				A40AABA31D87DDF700BE74C2 /* Models */,
+				A40AABA11D87DDD400BE74C2 /* Utilities */,
+				A40AABA01D87DDD400BE74C2 /* Resources */,
+				A40AAB911D87B28C00BE74C2 /* Main.storyboard */,
+				A40AAB941D87B28C00BE74C2 /* Assets.xcassets */,
+				A40AAB961D87B28C00BE74C2 /* LaunchScreen.storyboard */,
+				A40AAB991D87B28C00BE74C2 /* Info.plist */,
+				A40AAB881D87B28C00BE74C2 /* Supporting Files */,
+			);
+			path = DailyTarrot;
+			sourceTree = "<group>";
+		};
+		A40AAB881D87B28C00BE74C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A44BD4281D90D19A00553949 /* FirebaseAnalytics.framework */,
+				A44BD4291D90D19A00553949 /* FirebaseInstanceID.framework */,
+				A44BD42A1D90D19A00553949 /* GoogleInterchangeUtilities.framework */,
+				A44BD42B1D90D19A00553949 /* GoogleSymbolUtilities.framework */,
+				A44BD42C1D90D19A00553949 /* GoogleUtilities.framework */,
+				A44BD4261D90D17000553949 /* GoogleMobileAds.framework */,
+				A48514171D8F9FCF00A562F3 /* Bolts.framework */,
+				A48514181D8F9FCF00A562F3 /* FBSDKCoreKit.framework */,
+				A48514191D8F9FCF00A562F3 /* FBSDKLoginKit.framework */,
+				A485141A1D8F9FCF00A562F3 /* FBSDKShareKit.framework */,
+				A40AABBD1D87E68A00BE74C2 /* libsqlite3.tbd */,
+				A40AAB891D87B28C00BE74C2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A40AABA01D87DDD400BE74C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A40AABA71D87E3C500BE74C2 /* db */,
+				A40AABA41D87E01D00BE74C2 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A40AABA11D87DDD400BE74C2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A40AABAD1D87E4CD00BE74C2 /* ThirdParty */,
+				A40AABAA1D87E42200BE74C2 /* DBHelper.h */,
+				A40AABAB1D87E42200BE74C2 /* DBHelper.m */,
+				A4FADEAD1D88F2EE001D3257 /* DataAccess.h */,
+				A4FADEAE1D88F2EE001D3257 /* DataAccess.m */,
+				A4FADEB31D88F570001D3257 /* Const.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A40AABA21D87DDD400BE74C2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A40AAB8E1D87B28C00BE74C2 /* ViewController.h */,
+				A40AAB8F1D87B28C00BE74C2 /* ViewController.m */,
+				A40AABEC1D8807E000BE74C2 /* PickCardViewController.h */,
+				A40AABED1D8807E000BE74C2 /* PickCardViewController.m */,
+				A48095381D8A8C7C00786F47 /* DetailCardViewController.h */,
+				A48095391D8A8C7C00786F47 /* DetailCardViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A40AABA31D87DDF700BE74C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A40AABBF1D87E9DD00BE74C2 /* TarotDetails.h */,
+				A40AABC01D87E9DD00BE74C2 /* TarotDetails.m */,
+				A40AABEF1D880D9700BE74C2 /* CardDisplay.h */,
+				A40AABF01D880D9700BE74C2 /* CardDisplay.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A40AABA41D87E01D00BE74C2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A485141F1D8FAD3C00A562F3 /* Next.png */,
+				A48514201D8FAD3C00A562F3 /* star.png */,
+				A48514211D8FAD3C00A562F3 /* Strength.png */,
+				A463DDA01D8AA08F004193CA /* backbutton.png */,
+				A48095361D8A7C4100786F47 /* selectbutton.png */,
+				A48095341D8A7B1800786F47 /* mainbg.png */,
+				A4FADEB41D890356001D3257 /* back.png */,
+				A40AABC21D87F22300BE74C2 /* Death.png */,
+				A40AABC31D87F22300BE74C2 /* Judgment.png */,
+				A40AABC41D87F22300BE74C2 /* Justice.png */,
+				A40AABC51D87F22300BE74C2 /* Temperance.png */,
+				A40AABC61D87F22300BE74C2 /* The Chariot.png */,
+				A40AABC71D87F22300BE74C2 /* The Devil.png */,
+				A40AABC81D87F22300BE74C2 /* The Emperor.png */,
+				A40AABC91D87F22300BE74C2 /* The Empress.png */,
+				A40AABCA1D87F22300BE74C2 /* The Fool.png */,
+				A40AABCB1D87F22300BE74C2 /* The Hanged Man.png */,
+				A40AABCC1D87F22300BE74C2 /* The Hermit.png */,
+				A40AABCD1D87F22300BE74C2 /* The Hierophant.png */,
+				A40AABCE1D87F22300BE74C2 /* The High Priestess.png */,
+				A40AABCF1D87F22300BE74C2 /* The Lovers.png */,
+				A40AABD01D87F22300BE74C2 /* The Magician.png */,
+				A40AABD11D87F22300BE74C2 /* The Moon.png */,
+				A40AABD21D87F22300BE74C2 /* The Star.png */,
+				A40AABD31D87F22300BE74C2 /* The Sun.png */,
+				A40AABD41D87F22300BE74C2 /* The Tower.png */,
+				A40AABD51D87F22300BE74C2 /* The Wheel Of Fortune.png */,
+				A40AABD61D87F22300BE74C2 /* The World.png */,
+				A40AABA51D87E02900BE74C2 /* backcard.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A40AABA71D87E3C500BE74C2 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				A40AABA81D87E3C500BE74C2 /* phuc.db */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		A40AABAD1D87E4CD00BE74C2 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				A40AABAE1D87E4CD00BE74C2 /* FMDatabase.h */,
+				A40AABAF1D87E4CD00BE74C2 /* FMDatabase.m */,
+				A40AABB01D87E4CD00BE74C2 /* FMDatabaseAdditions.h */,
+				A40AABB11D87E4CD00BE74C2 /* FMDatabaseAdditions.m */,
+				A40AABB21D87E4CD00BE74C2 /* FMDatabasePool.h */,
+				A40AABB31D87E4CD00BE74C2 /* FMDatabasePool.m */,
+				A40AABB41D87E4CD00BE74C2 /* FMDatabaseQueue.h */,
+				A40AABB51D87E4CD00BE74C2 /* FMDatabaseQueue.m */,
+				A40AABB61D87E4CD00BE74C2 /* FMResultSet.h */,
+				A40AABB71D87E4CD00BE74C2 /* FMResultSet.m */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A40AAB841D87B28C00BE74C2 /* DailyTarrot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40AAB9C1D87B28C00BE74C2 /* Build configuration list for PBXNativeTarget "DailyTarrot" */;
+			buildPhases = (
+				A40AAB811D87B28C00BE74C2 /* Sources */,
+				A40AAB821D87B28C00BE74C2 /* Frameworks */,
+				A40AAB831D87B28C00BE74C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyTarrot;
+			productName = DailyTarrot;
+			productReference = A40AAB851D87B28C00BE74C2 /* DailyTarrot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A40AAB7D1D87B28C00BE74C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Do Quoc Lam";
+				TargetAttributes = {
+					A40AAB841D87B28C00BE74C2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XD9ALJD5P6;
+					};
+				};
+			};
+			buildConfigurationList = A40AAB801D87B28C00BE74C2 /* Build configuration list for PBXProject "DailyTarrot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40AAB7C1D87B28C00BE74C2;
+			productRefGroup = A40AAB861D87B28C00BE74C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40AAB841D87B28C00BE74C2 /* DailyTarrot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40AAB831D87B28C00BE74C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A463DDA11D8AA08F004193CA /* backbutton.png in Resources */,
+				A40AABEA1D87F22300BE74C2 /* The Wheel Of Fortune.png in Resources */,
+				A40AABDA1D87F22300BE74C2 /* Temperance.png in Resources */,
+				A4FADEB51D890356001D3257 /* back.png in Resources */,
+				A40AABE51D87F22300BE74C2 /* The Magician.png in Resources */,
+				A48095371D8A7C4100786F47 /* selectbutton.png in Resources */,
+				A40AABE91D87F22300BE74C2 /* The Tower.png in Resources */,
+				A40AABE71D87F22300BE74C2 /* The Star.png in Resources */,
+				A48514241D8FAD3C00A562F3 /* Strength.png in Resources */,
+				A40AAB981D87B28C00BE74C2 /* LaunchScreen.storyboard in Resources */,
+				A40AAB951D87B28C00BE74C2 /* Assets.xcassets in Resources */,
+				A40AABD71D87F22300BE74C2 /* Death.png in Resources */,
+				A40AABD81D87F22300BE74C2 /* Judgment.png in Resources */,
+				A40AABDD1D87F22300BE74C2 /* The Emperor.png in Resources */,
+				A48095351D8A7B1800786F47 /* mainbg.png in Resources */,
+				A40AABDF1D87F22300BE74C2 /* The Fool.png in Resources */,
+				A40AABE61D87F22300BE74C2 /* The Moon.png in Resources */,
+				A40AABE41D87F22300BE74C2 /* The Lovers.png in Resources */,
+				A40AABE81D87F22300BE74C2 /* The Sun.png in Resources */,
+				A40AABDE1D87F22300BE74C2 /* The Empress.png in Resources */,
+				A40AABA61D87E02900BE74C2 /* backcard.png in Resources */,
+				A40AABD91D87F22300BE74C2 /* Justice.png in Resources */,
+				A48514231D8FAD3C00A562F3 /* star.png in Resources */,
+				A40AABE31D87F22300BE74C2 /* The High Priestess.png in Resources */,
+				A48514221D8FAD3C00A562F3 /* Next.png in Resources */,
+				A40AABA91D87E3C500BE74C2 /* phuc.db in Resources */,
+				A40AABEB1D87F22300BE74C2 /* The World.png in Resources */,
+				A40AABE11D87F22300BE74C2 /* The Hermit.png in Resources */,
+				A40AABE01D87F22300BE74C2 /* The Hanged Man.png in Resources */,
+				A44BD4331D90DE3C00553949 /* GoogleService-Info.plist in Resources */,
+				A40AABE21D87F22300BE74C2 /* The Hierophant.png in Resources */,
+				A40AAB931D87B28C00BE74C2 /* Main.storyboard in Resources */,
+				A40AABDC1D87F22300BE74C2 /* The Devil.png in Resources */,
+				A40AABDB1D87F22300BE74C2 /* The Chariot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40AAB811D87B28C00BE74C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40AAB901D87B28C00BE74C2 /* ViewController.m in Sources */,
+				A40AABEE1D8807E000BE74C2 /* PickCardViewController.m in Sources */,
+				A40AABBB1D87E4CD00BE74C2 /* FMDatabaseQueue.m in Sources */,
+				A40AAB8D1D87B28C00BE74C2 /* AppDelegate.m in Sources */,
+				A40AAB8A1D87B28C00BE74C2 /* main.m in Sources */,
+				A480953A1D8A8C7C00786F47 /* DetailCardViewController.m in Sources */,
+				A40AABB81D87E4CD00BE74C2 /* FMDatabase.m in Sources */,
+				A40AABBA1D87E4CD00BE74C2 /* FMDatabasePool.m in Sources */,
+				A4FADEAF1D88F2EE001D3257 /* DataAccess.m in Sources */,
+				A40AABBC1D87E4CD00BE74C2 /* FMResultSet.m in Sources */,
+				A40AABF11D880D9700BE74C2 /* CardDisplay.m in Sources */,
+				A40AABAC1D87E42200BE74C2 /* DBHelper.m in Sources */,
+				A40AABB91D87E4CD00BE74C2 /* FMDatabaseAdditions.m in Sources */,
+				A40AABC11D87E9DD00BE74C2 /* TarotDetails.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A40AAB911D87B28C00BE74C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40AAB921D87B28C00BE74C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A40AAB961D87B28C00BE74C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40AAB971D87B28C00BE74C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A40AAB9A1D87B28C00BE74C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A40AAB9B1D87B28C00BE74C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A40AAB9D1D87B28C00BE74C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XD9ALJD5P6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DailyTarrot",
+				);
+				INFOPLIST_FILE = DailyTarrot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-si.DailyTarrot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A40AAB9E1D87B28C00BE74C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XD9ALJD5P6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DailyTarrot",
+				);
+				INFOPLIST_FILE = DailyTarrot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-si.DailyTarrot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A40AAB801D87B28C00BE74C2 /* Build configuration list for PBXProject "DailyTarrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40AAB9A1D87B28C00BE74C2 /* Debug */,
+				A40AAB9B1D87B28C00BE74C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40AAB9C1D87B28C00BE74C2 /* Build configuration list for PBXNativeTarget "DailyTarrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40AAB9D1D87B28C00BE74C2 /* Debug */,
+				A40AAB9E1D87B28C00BE74C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A40AAB7D1D87B28C00BE74C2 /* Project object */;
+}
